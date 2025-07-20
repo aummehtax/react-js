@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Shadows Into Light';
+  src: url('../public/IndieFlower-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dot-text {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 16px;
+  color: white;
+  /* letter-spacing: 4px; */
+}
+
+
+.box{
+    box-shadow: rgba(252, 251, 251, 0.23) 0px 6px 24px 0px, rgba(255, 255, 255, 0.08) 0px 0px 0px 1px;
+    transition: 0.2s;
+}
+.box:hover{
+    box-shadow: rgba(252, 251, 251, 0.30) 0px 6px 24px 0px, rgba(255, 255, 255, 0.08) 0px 0px 0px 1px;
+}
+
+/* scroll bar */
+.data::-webkit-scrollbar {
+  width: 8px;
+}
+
+.data::-webkit-scrollbar-track {
+  background: #2d2d2d;
+  border-radius: 10px;
+}
+
+.data::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+  border: 2px solid #2d2d2d;
+}
+
+.data::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* scroll bar */
