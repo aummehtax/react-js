@@ -4,3 +4,14 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 0.3px;
 }
+.card-div{
+    box-shadow: rgba(17, 12, 46, 0.06) 0px 48px 100px 0px;
+    transition: 0.2s;
+}
+.card-div:hover {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.card-div:hover .product-img {
+  transform: scale(98%);
+  transition: 0.2s;
+}

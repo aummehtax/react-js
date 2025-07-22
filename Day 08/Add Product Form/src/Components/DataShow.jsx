@@ -1,10 +1,17 @@
 import { useState } from "react"
 import { useRef } from "react"
 
-function DataShow() {
+function DataShow({setProductData}) { //Destructuring instead of props word
 
     //hook
-    let [imgUrl , setUrl] = useState(null)
+        let [imgUrl , setUrl] = useState("")
+        let [colorData , setColor] = useState("")
+        let [input1Data , set1Data] = useState("")
+        let [priceData , setPriceData] = useState("")
+        let [checkBoxData , setCheckData] = useState("")
+        let [selectData ,  setSelect] = useState("")
+        let [textareaData ,  setAreaData] = useState("")
+
     //hook 
     
     // useRef
@@ -12,8 +19,7 @@ function DataShow() {
     let divRef = useRef(null)
     // useRef
 
-    
-    
+
     let handleDrop = (e) => {
         
         e.target.style.backgroundColor = "rgba(0, 0, 0, 0.1)" 
@@ -22,7 +28,7 @@ function DataShow() {
          setTimeout(() => {
             e.target.style.border = "0px solid " // to remove dashed border
         }, 500); 
-        console.log(e.target.style);
+        // console.log(e.target.style);
         
         e.preventDefault() 
         const files = e.dataTransfer.files[0] // to set the data in the div 
@@ -30,7 +36,7 @@ function DataShow() {
         if(files && files.type.startsWith("image/")){
             setUrl(URL.createObjectURL(files))
         }
-        console.log(files); 
+        // console.log(files); 
     }
     let handleDrag = (e) => {
           e.preventDefault()           
@@ -45,7 +51,7 @@ function DataShow() {
 
     let handleBrowse = (e) => {
         e.preventDefault() 
-        console.log(inputRef);
+        // console.log(inputRef);
         inputRef.current.click()
 
          setTimeout(() => {
@@ -60,6 +66,55 @@ function DataShow() {
             setUrl(URL.createObjectURL(files))
         }
     }
+
+    let handleColor = (e) => {
+        setColor(e.target.value)
+    }
+
+    let handleInput1Data = (e) => {
+        set1Data(e.target.value)
+    }
+    
+    let handlePriceData = (e) => {
+        setPriceData(e.target.value)
+    }
+    
+    let handleCheck = (e) => {
+        if(e.target.checked){
+            
+            setCheckData("Cotton")
+        }
+        else{
+            setCheckData("")
+        }
+    }
+
+    let handleSelect = (e) => {
+        setSelect(e.target.value)
+    }
+
+
+
+
+    let handleSubmit = (e) => {
+
+        e.preventDefault()
+
+        let data = {
+            img : imgUrl,
+            title : input1Data,
+            price : priceData,
+            color : colorData,
+            material : checkBoxData,
+            clothTypes : selectData,
+            description : textareaData,
+        }
+
+        setProductData(prev => [...prev, data])
+        
+        
+    }
+
 
     return(
         
@@ -88,39 +143,39 @@ function DataShow() {
 
                 <div className="title-div w-[100%] h-auto rounded-2xl border-2 p-4 flex gap-2 items-center bg-white">
                     <span className="text-[18px] font-semibold">Title</span>
-                    <input type="text" placeholder="Add Title.."  className="w-[50%] h-[40px] bg-[#ffd84d] text-black rounded-[5px] outline-0 border-0 px-2"/>
+                    <input type="text" placeholder="Add Title.." value={input1Data} onChange={handleInput1Data} className="w-[50%] h-[40px] bg-[#ffd84d] text-black rounded-[5px] outline-0 border-0 px-2"/>
                 </div>
 
                 <div className="price-div w-[100%] h-auto rounded-2xl border-2 p-4 flex gap-2 items-center bg-white">
                     <span className="text-[18px] font-semibold">Price</span>
-                    <input type="text"  placeholder="Add Price.."  className="w-[50%] h-[40px] bg-[#ffd84d] text-black rounded-[5px] outline-0 border-0 px-2"/>
+                    <input type="text"  placeholder="Add Price.." value={priceData} onChange={handlePriceData}  className="w-[50%] h-[40px] bg-[#ffd84d] text-black rounded-[5px] outline-0 border-0 px-2"/>
                 </div>
 
                 <div className="color-div w-[100%] h-auto rounded-2xl border-2 p-4 flex gap-2 items-center bg-white">
-                    <span className="text-[18px] font-semibold" name="radioName">Choose Color</span>
+                    <span className="text-[18px] font-semibold"  name="radioName">Choose Color</span>
                     <span>Black</span>
-                    <input type="radio" name="radioName"  placeholder="Add Price.."  className="w-[20px] h-[20px] bg-[#ffd84d] text-black rounded-[5px] outline-0 border-0 px-2"/> 
+                    <input type="radio" name="radioName"  placeholder="Add Price.." value={"Black"} onChange={handleColor} className="w-[20px] h-[20px] bg-[#ffd84d] text-black rounded-[5px] outline-0 border-0 px-2"/> 
                     ,
                      <span>White</span>
-                    <input type="radio" name="radioName"  placeholder="Add Price.."  className="w-[20px] h-[20px] bg-[#ffd84d] text-black rounded-[5px] outline-0 border-0 px-2"/>
+                    <input type="radio" name="radioName"  placeholder="Add Price.." value={"White"} onChange={handleColor}  className="w-[20px] h-[20px] bg-[#ffd84d] text-black rounded-[5px] outline-0 border-0 px-2"/>
                     ,
                     <span>Red</span>
-                    <input type="radio" name="radioName"  placeholder="Add Price.."  className="w-[20px] h-[20px] bg-[#ffd84d] text-black rounded-[5px] outline-0 border-0 px-2"/>
+                    <input type="radio" name="radioName"  placeholder="Add Price.." value={"Red"} onChange={handleColor}  className="w-[20px] h-[20px] bg-[#ffd84d] text-black rounded-[5px] outline-0 border-0 px-2"/>
                     , 
                      <span>Green</span>
-                    <input type="radio" name="radioName"  placeholder="Add Price.."  className="w-[20px] h-[20px] bg-[#ffd84d] text-black rounded-[5px] outline-0 border-0 px-2"/>
+                    <input type="radio" name="radioName"  placeholder="Add Price.." value={"Green"} onChange={handleColor}  className="w-[20px] h-[20px] bg-[#ffd84d] text-black rounded-[5px] outline-0 border-0 px-2"/>
                     
                 </div>
 
                 <div className="material-div w-[100%] h-auto rounded-2xl border-2 p-4 flex gap-2 items-center bg-white">
                     <span className="text-[18px] font-semibold" name="radioMaterial">Choose Material</span>
-                    <span>Cotton</span>
-                    <input type="checkbox" name="radioMaterial"  placeholder="Add Price.."  className="w-[20px] h-[20px] bg-[#ffd84d] text-black rounded-[5px] outline-0 border-0 px-2"/> 
+                    <span >Cotton</span>
+                    <input type="checkbox" name="radioMaterial" value={checkBoxData} onChange={handleCheck}  placeholder="Add Price.."  className="w-[20px] h-[20px] bg-[#ffd84d] text-black rounded-[5px] outline-0 border-0 px-2"/> 
                 </div>
 
                 <div className="types-div w-[100%] h-auto rounded-2xl border-2 p-4 flex gap-2 items-center bg-white">
                     <span className="text-[18px] font-semibold" name="radioMaterial">Cloth Types</span>
-                        <select name="clothing"  className="bg-amber-50 outline-0">
+                        <select name="clothing"  className="bg-amber-50 outline-0" value={selectData} onChange={handleSelect}>
                         <optgroup label="Topwear">
                             <option value="jacket">Jacket</option>
                             <option value="hoodie">Hoodie</option>
@@ -144,16 +199,18 @@ function DataShow() {
 
                 <div className="description-div w-[100%] h-auto rounded-2xl border-2 p-4 flex gap-2  bg-white">
                     <span className="text-[18px] font-semibold" >Write Description</span>
-                    <textarea name="" placeholder="Description..." className="w-[70%] min-h-[60px] resize-y bg-[#ffd84d] text-black rounded-[5px] outline-0 border-0 px-2" onInput={
+                    <textarea name="" placeholder="Description..." value={textareaData}  className="w-[70%] min-h-[60px] resize-y bg-[#ffd84d] text-black rounded-[5px] outline-0 border-0 px-2" onInput={
                         (e) => {
                             e.target.style.height = "auto"
                             e.target.style.height = `${e.target.scrollHeight}px`
+                            setAreaData(e.target.value)
+                            
                         }
                     }></textarea>
                 </div>
 
                 <div className="subBtn flex gap-4">
-                     <button type="submit" className="bg-black text-white w-[25%] h-[40px] rounded-2xl active:scale-[90%] duration-[0.2s] will-change-transform cursor-pointer">Submit</button>
+                     <button type="submit" onClick={handleSubmit} className="bg-black text-white w-[25%] h-[40px] rounded-2xl active:scale-[90%] duration-[0.2s] will-change-transform cursor-pointer">Submit</button>
                      <button type="reset" className="bg-black text-white w-[25%] h-[40px] rounded-2xl active:scale-[90%] duration-[0.2s] will-change-transform cursor-pointer" onClick={
                         () => {
                             window.location.reload()
@@ -166,6 +223,7 @@ function DataShow() {
           
         </div>
     )
+    
 }
 
 export default DataShow

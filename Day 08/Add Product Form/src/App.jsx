@@ -1,11 +1,16 @@
 import DataShow from "./Components/DataShow.jsx"
+import Product from "./Components/Product.jsx"
+import { useState } from "react"
 
 function App() {
   
+  let [productData , setProductData] = useState([])
+
 
   return (
     <>
-    <DataShow></DataShow>
+    <DataShow setProductData={setProductData}></DataShow>
+    <Product productData={productData}></Product>
     </>
   )
 }
