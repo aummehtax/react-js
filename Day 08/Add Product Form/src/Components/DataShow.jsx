@@ -110,8 +110,11 @@ function DataShow({setProductData}) { //Destructuring instead of props word
             description : textareaData,
         }
 
-        setProductData(prev => [...prev, data])
-        
+        setProductData(prev => {
+            let updData = [...prev , data]
+            localStorage.setItem("Data", JSON.stringify(updData))
+            return updData
+        })
         
     }
 
@@ -148,7 +151,7 @@ function DataShow({setProductData}) { //Destructuring instead of props word
 
                 <div className="price-div w-[100%] h-auto rounded-2xl border-2 p-4 flex gap-2 items-center bg-white">
                     <span className="text-[18px] font-semibold">Price</span>
-                    <input type="text"  placeholder="Add Price.." value={priceData} onChange={handlePriceData}  className="w-[50%] h-[40px] bg-[#ffd84d] text-black rounded-[5px] outline-0 border-0 px-2"/>
+                    <input type="number"  placeholder="Add Price.." value={priceData} onChange={handlePriceData}  className="w-[50%] h-[40px] bg-[#ffd84d] text-black rounded-[5px] outline-0 border-0 px-2"/>
                 </div>
 
                 <div className="color-div w-[100%] h-auto rounded-2xl border-2 p-4 flex gap-2 items-center bg-white">

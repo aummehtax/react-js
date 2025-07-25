@@ -4,8 +4,15 @@ import { useState } from "react"
 
 function App() {
   
-  let [productData , setProductData] = useState([])
-
+  let [productData , setProductData] = useState(() => {
+    let stored = JSON.parse(localStorage.getItem("Data"))
+    if(stored){
+      return stored
+    }
+    else{
+      return []
+    }
+  }) 
 
   return (
     <>
