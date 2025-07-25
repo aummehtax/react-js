@@ -226,7 +226,6 @@ function DataShow({setProductData}) { //Destructuring instead of props word
           
         </div>
     )
-    
 }
 
 export default DataShow
