@@ -217,6 +217,7 @@ function DataShow({setProductData}) { //Destructuring instead of props word
                      <button type="reset" className="bg-black text-white w-[25%] h-[40px] rounded-2xl active:scale-[90%] duration-[0.2s] will-change-transform cursor-pointer" onClick={
                         () => {
                             window.location.reload()
+                            localStorage.removeItem("Data")
                         }
                      }>Reset</button>
                 </div>
