@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+.main{
+  background-image: url(./assets/image1.webp);
+  background-size: cover;
+  background-position: center;
+
+}
