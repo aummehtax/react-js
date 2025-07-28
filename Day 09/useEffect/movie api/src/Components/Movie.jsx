@@ -11,6 +11,10 @@ function Movie() {
     .then(res => {
         setMovie(prev => [...prev , ...res.results])
     })
+    .catch(error => {
+        console.log("Fetching Error" , error);
+        
+    })
    },[count])
    
     let handleClick = () => {
