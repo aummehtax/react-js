@@ -1,0 +1,62 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "Aum Mehta",
+      "age": 20,
+      "email": "aum.mehta@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Riya Sharma",
+      "age": 23,
+      "email": "riya.sharma@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Karan Patel",
+      "age": 25,
+      "email": "karan.patel@example.com"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "name": "Sneha Rao",
+      "age": 22,
+      "email": "sneha.rao@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Vikas Kumar",
+      "age": 27,
+      "email": "vikas.kumar@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Neha Joshi",
+      "age": 24,
+      "email": "neha.joshi@example.com"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Rohan Singh",
+      "age": 26,
+      "email": "rohan.singh@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Anjali Verma",
+      "age": 22,
+      "email": "anjali.verma@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Mohit Bansal",
+      "age": 28,
+      "email": "mohit.bansal@example.com"
+    }
+  ]
+}
