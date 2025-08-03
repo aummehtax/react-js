@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "e509",
+      "name": "hello duniya",
+      "email": "haha@example.com"
+    },
+    {
+      "id": "de6a",
+      "name": "hello duniya",
+      "email": "haha@example.com"
+    },
+    {
+      "id": "678a",
+      "name": "hello duniya",
+      "email": "haha@example.com"
+    },
+    {
+      "id": "81fd",
+      "name": "hello duniya",
+      "email": "haha@example.com"
+    },
+    {
+      "name": "Updated name",
+      "email": "updated@email.com",
+      "id": "a3df"
+    },
+    {
+      "id": "d653",
+      "name": "Updated name (patch)",
+      "email": "haha@example.com"
+    }
+  ]
+}
