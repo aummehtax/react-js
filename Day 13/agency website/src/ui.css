@@ -45,6 +45,17 @@
 .title-photo:hover{
     background-color: #fcc40c;
 }
+.shoes{
+    box-shadow: rgba(5, 5, 5, 0.2) 0px 8px 24px;
+}
+.footer-btn{
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.footer-btn:hover{
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
 @media (min-width: 0px) and (max-width: 767px) {
   .one-font{
@@ -52,3 +63,17 @@
 }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

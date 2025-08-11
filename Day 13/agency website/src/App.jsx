@@ -6,19 +6,21 @@ import CaseStudies from "./components/pages/CaseStudies.jsx";
 import Home from "./components/pages/Home.jsx"
 import News from "./components/pages/News.jsx";
 import Contact from "./components/pages/Contact.jsx";
+import Footer from "./components/Footer.jsx";
 
 
 function App() {
   return (
     <div>
       <Header></Header>
-      <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/about" element={<About/>} />
-        <Route path="/casestudies" element={<CaseStudies/>} />
-        <Route path="/news" element={<News/>} />
-        <Route path="/contact" element={<Contact/>} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/casestudies" element={<CaseStudies/>} />
+          <Route path="/news" element={<News/>} />
+          <Route path="/contact" element={<Contact/>} />
+        </Routes>
+      <Footer></Footer>
       
     </div>
   )
