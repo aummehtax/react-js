@@ -258,10 +258,6 @@ function Home() {
   </ul>
 </div>
 
-
-{/* section 5*/}
-
-
     </div>
     
   )
