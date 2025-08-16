@@ -1,7 +1,7 @@
 
 const About = () => {
   return (
-<div>
+<div className="bg-[#f6f3eb]">
 {/* section 1 */}
 
       <div className="about w-full h-auto lg:h-[91.7vh] flex flex-col lg:flex-row lg:p-0">
@@ -121,7 +121,7 @@ const About = () => {
 {/* section 4*/}
 
 
-<div class=" py-16 px-4"> 
+<div class=" py-16 px-4 bg-[#f6f3eb]"> 
   <h2 class="text-center text-xl md:text-2xl lg:text-3xl font-mono mb-14 tracking-wide">
     MEET THE TEAM!
   </h2>
@@ -205,12 +205,12 @@ const About = () => {
 
 {/* section 5*/}
 
-<div class="relative">
-  <h2 class="inline-block bg-[#f7f4ec] text-lg md:text-xl font-mono uppercase tracking-wider mb-8 px-2 absolute -top-7">
+<div class="relative ">
+  <h2 class="inline-block bg-[#e7e5dd] text-lg md:text-xl font-mono uppercase tracking-wider mb-8 px-2 absolute -top-7">
     Press Coverage
   </h2>
 
-  <div class="bg-[#f7f4ec] py-12 px-4 mt-20">
+  <div class="bg-[#e7e5dd] py-12 px-4 mt-20">
     <div class="space-y-4 max-w-6xl mx-auto">
       
       <div class="group relative flex flex-col sm:flex-row justify-between border-b border-dotted border-black pb-3" >

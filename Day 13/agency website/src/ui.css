@@ -22,7 +22,6 @@
     line-height: 65px;
     color: #343030;
 }
-
 .btn-hero{
     transition: 0.2s;
     cursor: pointer;
@@ -32,11 +31,9 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     will-change: contents;
 }
-
 .red-border{
  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 10px;
 }
-
 .photo-section , .title-photo {
  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
  transition: 0.2s;
@@ -60,11 +57,25 @@
     transition: 0.2s;
     cursor: pointer;
 }
-
 .footer-btn:hover{
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
+.btn-case{
+   transition: 0.2s;
+   cursor: pointer;
+}
+.btn-case:hover{
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px;
+}
+.btn-text{
+        transition: 0.2s;
+        cursor: pointer;
+        border: 1px solid #f6f3eb;
+}
+.btn-text:hover{
+     box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px;
+    border: 1px solid black;
+}
 @media (min-width: 0px) and (max-width: 767px) {
   .one-font{
     line-height: 60px;
