@@ -29,10 +29,10 @@ function Home() {
             <div className="hero-right w-[100%] h-[50%] md:h-screen lg:w-[50%] lg:h-[100%] border-b flex items-center justify-center bg-[#31a0c8] py-14 sm:py-17 md:py-0">
                 
                 <div className="red-border w-[85%] sm:w-[80%] md:w-[70%] aspect-square border flex items-center justify-center bg-[#df3b24] relative">
-                        <img src="/src/assets/hero2.webp" alt="" className="absolute w-[25%] max-w-[170px] h-auto left-[-5%] bottom-[10%] -rotate-6 sm:w-[30%] sm:left-[-10%]"/>
-                        <img src="/src/assets/smiley.webp" alt="" className="absolute w-[15%] max-w-[110px] h-auto top-[-5%] right-[5%] -rotate-12 hover:rotate-12 duration-200 cursor-pointer sm:w-[20%] sm:top-[-8%]"/>
+                        <img src="/assets/hero2.webp" alt="" className="absolute w-[25%] max-w-[170px] h-auto left-[-5%] bottom-[10%] -rotate-6 sm:w-[30%] sm:left-[-10%]"/>
+                        <img src="/assets/smiley.webp" alt="" className="absolute w-[15%] max-w-[110px] h-auto top-[-5%] right-[5%] -rotate-12 hover:rotate-12 duration-200 cursor-pointer sm:w-[20%] sm:top-[-8%]"/>
                     <div className="sub-red-border w-[90%] h-[90%] border">
-                        <img src="/src/assets/hero1.webp" alt="" className="w-full h-full object-cover object-center"/>
+                        <img src="/assets/hero1.webp" alt="" className="w-full h-full object-cover object-center"/>
                     </div>
                 </div>
 
@@ -45,22 +45,22 @@ function Home() {
         <div className="section-2 w-[100%] h-auto py-35 px-[2%] lg:px-[6%] xl:px-[10%] flex flex-wrap justify-center items-center gap-15 gap-y-26 bg-[#eee9db]">
 
             <div className="photo-section w-[90%] xl:w-[48%] p-8 h-[auto] border flex justify-center items-center relative bg-[#fcc40c]">
-              <div className="sub-photo w-[100%] aspect-video border bg-[url(/src/assets/img1.webp)] bg-center bg-cover"></div>
+              <div className="sub-photo w-[100%] aspect-video border bg-[url(/assets/img1.webp)] bg-center bg-cover"></div>
                <div className="title-photo w-auto p-8 h-[68px] border absolute flex justify-center items-center top-[90%] left-[3%] bg-white text-black text-[3.2vw] sm:text-2xl">APEX LEGENDS SEASON 24</div>
             </div>
 
              <div className="photo-section w-[90%] xl:w-[48%] p-8 h-[auto] border flex justify-center items-center relative bg-[#1e4dd7]">
-              <div className="sub-photo w-[100%] aspect-video border bg-[url(/src/assets/img3.webp)] bg-center bg-cover"></div>
+              <div className="sub-photo w-[100%] aspect-video border bg-[url(/assets/img3.webp)] bg-center bg-cover"></div>
                <div className="title-photo w-auto p-8 h-[68px] border absolute flex justify-center items-center top-[90%] left-[3%] bg-white text-black text-[3.2vw] sm:text-2xl">Civilization VII</div>
             </div>
 
              <div className="photo-section w-[90%] xl:w-[48%] p-8 h-[auto] border flex justify-center items-center relative bg-[#df3b24]">
-              <div className="sub-photo w-[100%] aspect-video border bg-[url(/src/assets/img4.webp)] bg-center bg-cover"></div>
+              <div className="sub-photo w-[100%] aspect-video border bg-[url(/assets/img4.webp)] bg-center bg-cover"></div>
                <div className="title-photo w-auto p-8 h-[68px] border absolute flex justify-center items-center top-[90%] left-[3%] bg-white text-black text-[3.2vw] sm:text-2xl">Kingdom Come: Deliverance II</div>
             </div>
 
             <div className="photo-section w-[90%] xl:w-[48%] p-8 h-[auto] border flex justify-center items-center relative bg-[#ff72a2]">
-              <div className="sub-photo w-[100%] aspect-video border bg-[url(/src/assets/img2.webp)] bg-center bg-cover"></div>
+              <div className="sub-photo w-[100%] aspect-video border bg-[url(/assets/img2.webp)] bg-center bg-cover"></div>
                <div className="title-photo w-auto p-8 h-[68px] border absolute flex justify-center items-center top-[90%] left-[3%] bg-white text-black text-[3.2vw] sm:text-2xl">Ubisoft UK on Social</div>
             </div>
 
@@ -71,7 +71,7 @@ function Home() {
         <div class="w-full h-auto bg-[#df3b24] px-6 sm:px-12 lg:px-20 py-10 text-white grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 relative">
 
                       <div class="card-smile p-5 rounded-xl flex flex-col gap-4 items-start">
-                        <img src="/src/assets/smiley.webp" alt="" class="w-12 h-auto -rotate-12 hover:rotate-12 duration-300 cursor-pointer"/>
+                        <img src="/assets/smiley.webp" alt="" class="w-12 h-auto -rotate-12 hover:rotate-12 duration-300 cursor-pointer"/>
                         <div class="text-2xl font-semibold">
                           <p>Campaign</p>
                           <p>of the Year</p>
@@ -80,7 +80,7 @@ function Home() {
                       </div>
 
                       <div class="card-smile p-5 rounded-xl flex flex-col gap-4 items-start">
-                        <img src="/src/assets/smiley.webp" alt="" class="w-12 h-auto -rotate-12 hover:rotate-12 duration-300 cursor-pointer"/>
+                        <img src="/assets/smiley.webp" alt="" class="w-12 h-auto -rotate-12 hover:rotate-12 duration-300 cursor-pointer"/>
                         <div class="text-2xl font-semibold">
                           <p>Small Content</p>
                           <p>Agency of the Year</p>
@@ -89,7 +89,7 @@ function Home() {
                       </div>
 
                       <div class="card-smile p-5 rounded-xl flex flex-col gap-4 items-start">
-                        <img src="/src/assets/smiley.webp" alt="" class="w-12 h-auto -rotate-12 hover:rotate-12 duration-300 cursor-pointer"/>
+                        <img src="/assets/smiley.webp" alt="" class="w-12 h-auto -rotate-12 hover:rotate-12 duration-300 cursor-pointer"/>
                         <div class="text-2xl font-semibold">
                           <p>Best Use of</p>
                           <p>Interactive Content</p>
@@ -98,7 +98,7 @@ function Home() {
                       </div>
 
                       <div class="card-smile p-5 rounded-xl flex flex-col gap-4 items-start">
-                        <img src="/src/assets/smiley.webp" alt="" class="w-12 h-auto -rotate-12 hover:rotate-12 duration-300 cursor-pointer"/>
+                        <img src="/assets/smiley.webp" alt="" class="w-12 h-auto -rotate-12 hover:rotate-12 duration-300 cursor-pointer"/>
                         <div class="text-2xl font-semibold">
                           <p>Independent Agency</p>
                           <p>of the Year</p>
@@ -107,7 +107,7 @@ function Home() {
                       </div>
 
                       <div class="card-smile p-5 rounded-xl flex flex-col gap-4 items-start">
-                        <img src="/src/assets/smiley.webp" alt="" class="w-12 h-auto -rotate-12 hover:rotate-12 duration-300 cursor-pointer"/>
+                        <img src="/assets/smiley.webp" alt="" class="w-12 h-auto -rotate-12 hover:rotate-12 duration-300 cursor-pointer"/>
                         <div class="text-2xl font-semibold">
                           <p>Best Integrated</p>
                           <p>Campaign</p>
@@ -116,7 +116,7 @@ function Home() {
                       </div>
 
                       <div class="card-smile p-5 rounded-xl flex flex-col gap-4 items-start">
-                        <img src="/src/assets/smiley.webp" alt="" class="w-12 h-auto -rotate-12 hover:rotate-12 duration-300 cursor-pointer"/>
+                        <img src="/assets/smiley.webp" alt="" class="w-12 h-auto -rotate-12 hover:rotate-12 duration-300 cursor-pointer"/>
                         <div class="text-2xl font-semibold">
                           <p>Innovative Agency</p>
                           <p>of the Year</p>
@@ -125,7 +125,7 @@ function Home() {
                       </div>
 
                       <div class="card-smile p-5 rounded-xl flex flex-col gap-4 items-start">
-                        <img src="/src/assets/smiley.webp" alt="" class="w-12 h-auto -rotate-12 hover:rotate-12 duration-300 cursor-pointer"/>
+                        <img src="/assets/smiley.webp" alt="" class="w-12 h-auto -rotate-12 hover:rotate-12 duration-300 cursor-pointer"/>
                         <div class="text-2xl font-semibold">
                           <p>Best Use of</p>
                           <p>New Social Platforms</p>
@@ -134,7 +134,7 @@ function Home() {
                       </div>
 
                       <div class="card-smile p-5 rounded-xl flex flex-col gap-4 items-start">
-                        <img src="/src/assets/smiley.webp" alt="" class="w-12 h-auto -rotate-12 hover:rotate-12 duration-300 cursor-pointer"/>
+                        <img src="/assets/smiley.webp" alt="" class="w-12 h-auto -rotate-12 hover:rotate-12 duration-300 cursor-pointer"/>
                         <div class="text-2xl font-semibold">
                           <p>Best Small</p>
                           <p>Agency</p>
@@ -143,7 +143,7 @@ function Home() {
                       </div>
 
                       <div class="card-smile p-5 rounded-xl flex flex-col gap-4 items-start">
-                        <img src="/src/assets/smiley.webp" alt="" class="w-12 h-auto -rotate-12 hover:rotate-12 duration-300 cursor-pointer"/>
+                        <img src="/assets/smiley.webp" alt="" class="w-12 h-auto -rotate-12 hover:rotate-12 duration-300 cursor-pointer"/>
                         <div class="text-2xl font-semibold">
                           <p>Chair</p>
                           <p>Award</p>
@@ -154,7 +154,7 @@ function Home() {
 
 
                       <div class="shoes w-[40%] sm:w-[30%] md:w-[20%] lg:w-[22%] xl:w-[14%] h-[200px] sm:h-[250px] md:h-[300px] lg:h-[400px] absolute -bottom-20 sm:-bottom-28 md:-bottom-36 lg:-bottom-50 right-4 sm:right-10 md:right-16 lg:right-20">
-                          <img src="/src/assets/shoes.webp" alt="" class="w-full h-full bg-center object-cover"/>
+                          <img src="/assets/shoes.webp" alt="" class="w-full h-full bg-center object-cover"/>
                       </div>
  
         </div>

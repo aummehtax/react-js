@@ -3,15 +3,15 @@ import { useState } from "react";
 function CaseStudies() {
 
 const cardsData = [
-  { img: "/src/assets/c1.webp", colors: ["#fcc40c", "#31a0c8"], title: "Apex Legends Season 24" },
-  { img: "/src/assets/c2.webp", colors: ["#31a0c8"], title: "Civilization VII" },
-  { img: "/src/assets/c3.webp", colors: ["#fcc40c", "#31a0c8"], title: "Kingdom Come: Deliverance II" },
-  { img: "/src/assets/c4.webp", colors: ["#ff72a2"], title: "Ubisoft UK on Social" },
-  { img: "/src/assets/c5.webp", colors: ["#31a0c8"], title: "Lords of the Fallen" },
-  { img: "/src/assets/c6.webp", colors: ["#31a0c8"], title: "Phasmophobia Console Launch" },
-  { img: "/src/assets/c7.webp", colors: ["#31a0c8"], title: "F1® Manager 2023/24" },
-  { img: "/src/assets/c8.webp", colors: ["#31a0c8"], title: "Park Beyond" },
-  { img: "/src/assets/c9.webp", colors: ["#fcc40c", "#31a0c8"], title: "ASUS Back to School" },
+  { img: "/assets/c1.webp", colors: ["#fcc40c", "#31a0c8"], title: "Apex Legends Season 24" },
+  { img: "/assets/c2.webp", colors: ["#31a0c8"], title: "Civilization VII" },
+  { img: "/assets/c3.webp", colors: ["#fcc40c", "#31a0c8"], title: "Kingdom Come: Deliverance II" },
+  { img: "/assets/c4.webp", colors: ["#ff72a2"], title: "Ubisoft UK on Social" },
+  { img: "/assets/c5.webp", colors: ["#31a0c8"], title: "Lords of the Fallen" },
+  { img: "/assets/c6.webp", colors: ["#31a0c8"], title: "Phasmophobia Console Launch" },
+  { img: "/assets/c7.webp", colors: ["#31a0c8"], title: "F1® Manager 2023/24" },
+  { img: "/assets/c8.webp", colors: ["#31a0c8"], title: "Park Beyond" },
+  { img: "/assets/c9.webp", colors: ["#fcc40c", "#31a0c8"], title: "ASUS Back to School" },
 ];
 
 const [selectedColor, setSelectedColor] = useState(null);

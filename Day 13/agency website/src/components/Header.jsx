@@ -10,7 +10,7 @@ function Header() {
     <div>
       <div className="w-[100%] h-[82px] border flex items-start justify-between ps-[2%] pe-[2%] sm:pe-[0%] bg-[#f6f3eb] fixed z-50 " >
 
-         <Link to="/"><img src="/src/assets/logo.webp" alt="" className="w-[60px] lg:w-[68px] h-[50px] lg:h-[58px] cursor-pointer mt-[15px] lg:mt-[10px]"/></Link>
+         <Link to="/"><img src="assets/logo.webp" alt="" className="w-[60px] lg:w-[68px] h-[50px] lg:h-[58px] cursor-pointer mt-[15px] lg:mt-[10px]"/></Link>
 
          <div className="w-[86%] lg:w-[70%] h-[100%]  left-header hidden sm:flex items-center justify-end">
 

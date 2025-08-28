@@ -32,7 +32,7 @@ const About = () => {
               </div>
 
               <div className="about-left order-2 lg:order-1 w-full lg:w-1/2 p-6 md:p-10 lg:p-0 md:h-[60vh] lg:h-auto flex justify-center items-center bg-[#f6f3eb]">
-                <img src="/src/assets/about1.webp" alt="About section" className="w-full h-full object-cover rounded-lg"/>
+                <img src="/assets/about1.webp" alt="About section" className="w-full h-full object-cover rounded-lg"/>
               </div>
               
       </div>
@@ -47,18 +47,18 @@ const About = () => {
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 md:gap-y-12 lg:gap-y-15 w-full">
-            <img src="/src/assets/logo1.webp" alt="logo" className="max-w-[120px] mx-auto" />
-            <img src="/src/assets/logo2.webp" alt="logo" className="max-w-[120px] mx-auto" />
-            <img src="/src/assets/logo3.webp" alt="logo" className="max-w-[120px] mx-auto" />
-            <img src="/src/assets/logo4.webp" alt="logo" className="max-w-[120px] mx-auto" />
-            <img src="/src/assets/logo5.webp" alt="logo" className="max-w-[80px] mx-auto" />
-            <img src="/src/assets/logo6.webp" alt="logo" className="max-w-[120px] mx-auto" />
-            <img src="/src/assets/logo7.webp" alt="logo" className="max-w-[120px] mx-auto" />
-            <img src="/src/assets/logo8.webp" alt="logo" className="max-w-[120px] mx-auto" />
-            <img src="/src/assets/logo9.webp" alt="logo" className="max-w-[120px] mx-auto" />
-            <img src="/src/assets/logo10.webp" alt="logo" className="max-w-[120px] mx-auto" />
-            <img src="/src/assets/logo11.webp" alt="logo" className="max-w-[120px] mx-auto" />
-            <img src="/src/assets/logo12.webp" alt="logo" className="max-w-[120px] mx-auto" />
+            <img src="/assets/logo1.webp" alt="logo" className="max-w-[120px] mx-auto" />
+            <img src="/assets/logo2.webp" alt="logo" className="max-w-[120px] mx-auto" />
+            <img src="/assets/logo3.webp" alt="logo" className="max-w-[120px] mx-auto" />
+            <img src="/assets/logo4.webp" alt="logo" className="max-w-[120px] mx-auto" />
+            <img src="/assets/logo5.webp" alt="logo" className="max-w-[80px] mx-auto" />
+            <img src="/assets/logo6.webp" alt="logo" className="max-w-[120px] mx-auto" />
+            <img src="/assets/logo7.webp" alt="logo" className="max-w-[120px] mx-auto" />
+            <img src="/assets/logo8.webp" alt="logo" className="max-w-[120px] mx-auto" />
+            <img src="/assets/logo9.webp" alt="logo" className="max-w-[120px] mx-auto" />
+            <img src="/assets/logo10.webp" alt="logo" className="max-w-[120px] mx-auto" />
+            <img src="/assets/logo11.webp" alt="logo" className="max-w-[120px] mx-auto" />
+            <img src="/assets/logo12.webp" alt="logo" className="max-w-[120px] mx-auto" />
           </div>
 
     </div>
@@ -78,7 +78,7 @@ const About = () => {
                 <span className="font-light tracking-wide">CREATIVE</span>
               </div>
               <div className="w-full aspect-square overflow-hidden">
-                <img src="/src/assets/about2.webp" alt="Creative" className="w-full h-full object-cover" />
+                <img src="/assets/about2.webp" alt="Creative" className="w-full h-full object-cover" />
               </div>
               <p className="mt-6 text-center leading-relaxed text-sm md:text-base">
                 Creative campaigns<br />
@@ -92,7 +92,7 @@ const About = () => {
                 <span className="font-light tracking-wide">CREATOR</span>
               </div>
               <div className="w-full aspect-square overflow-hidden">
-                <img src="/src/assets/about3.webp" alt="Creator" className="w-full h-full object-cover" />
+                <img src="/assets/about3.webp" alt="Creator" className="w-full h-full object-cover" />
               </div>
               <p className="mt-6 text-center leading-relaxed text-sm md:text-base">
                 Influencer partnerships<br />
@@ -106,7 +106,7 @@ const About = () => {
                 <span className="font-light tracking-wide">SOCIAL</span>
               </div>
               <div className="w-full aspect-square overflow-hidden">
-                <img src="/src/assets/about4.webp" alt="Social" className="w-full h-full object-cover" />
+                <img src="/assets/about4.webp" alt="Social" className="w-full h-full object-cover" />
               </div>
               <p className="mt-6 text-center leading-relaxed text-sm md:text-base">
                 Content creation<br />
@@ -129,73 +129,73 @@ const About = () => {
   <div class="flex flex-wrap justify-center gap-x-12 gap-y-14 max-w-7xl mx-auto">
 
     <div class="flex flex-col items-center max-w-[220px]">
-      <img src="/src/assets/i1.webp" alt="MJ Widomska" class="w-[220px] h-[260px] object-cover"/>
+      <img src="/assets/i1.webp" alt="MJ Widomska" class="w-[220px] h-[260px] object-cover"/>
       <p class="mt-4 text-xs uppercase tracking-wider text-center">Founder and Managing Director</p>
       <h3 class="text-2xl font-serif text-center leading-snug">MJ Widomska</h3>
     </div>
 
     <div class="flex flex-col items-center max-w-[220px]">
-      <img src="/src/assets/i2.webp" alt="Ella Hagi" class="w-[220px] h-[260px] object-cover"/>
+      <img src="/assets/i2.webp" alt="Ella Hagi" class="w-[220px] h-[260px] object-cover"/>
       <p class="mt-4 text-xs uppercase tracking-wider text-center">Campaign Director</p>
       <h3 class="text-2xl font-serif text-center leading-snug">Ella Hagi</h3>
     </div>
 
     <div class="flex flex-col items-center max-w-[220px]">
-      <img src="/src/assets/i3.webp" alt="Summer Tang" class="w-[220px] h-[260px] object-cover"/>
+      <img src="/assets/i3.webp" alt="Summer Tang" class="w-[220px] h-[260px] object-cover"/>
       <p class="mt-4 text-xs uppercase tracking-wider text-center">Head of Operations</p>
       <h3 class="text-2xl font-serif text-center leading-snug">Summer Tang</h3>
     </div>
 
     <div class="flex flex-col items-center max-w-[220px]">
-      <img src="/src/assets/i4.webp" alt="Lou Jones" class="w-[220px] h-[260px] object-cover"/>
+      <img src="/assets/i4.webp" alt="Lou Jones" class="w-[220px] h-[260px] object-cover"/>
       <p class="mt-4 text-xs uppercase tracking-wider text-center">Head of Campaign Strategy</p>
       <h3 class="text-2xl font-serif text-center leading-snug">Lou Jones</h3>
     </div>
 
     <div class="flex flex-col items-center max-w-[220px]">
-      <img src="/src/assets/i5.webp" alt="Siân Hutchinson" class="w-[220px] h-[260px] object-cover"/>
+      <img src="/assets/i5.webp" alt="Siân Hutchinson" class="w-[220px] h-[260px] object-cover"/>
       <p class="mt-4 text-xs uppercase tracking-wider text-center">Lead Campaign Manager</p>
       <h3 class="text-2xl font-serif text-center leading-snug">Siân Hutchinson</h3>
     </div>
 
     <div class="flex flex-col items-center max-w-[220px]">
-      <img src="/src/assets/i6.webp" alt="Imogen Mellor" class="w-[220px] h-[260px] object-cover"/>
+      <img src="/assets/i6.webp" alt="Imogen Mellor" class="w-[220px] h-[260px] object-cover"/>
       <p class="mt-4 text-xs uppercase tracking-wider text-center">Social Lead</p>
       <h3 class="text-2xl font-serif text-center leading-snug">Imogen Mellor</h3>
     </div>
 
     <div class="flex flex-col items-center max-w-[220px]">
-      <img src="/src/assets/i7.webp" alt="Monika Baran" class="w-[220px] h-[260px] object-cover"/>
+      <img src="/assets/i7.webp" alt="Monika Baran" class="w-[220px] h-[260px] object-cover"/>
       <p class="mt-4 text-xs uppercase tracking-wider text-center">Senior Producer</p>
       <h3 class="text-2xl font-serif text-center leading-snug">Monika Baran</h3>
     </div>
 
     <div class="flex flex-col items-center max-w-[220px]">
-      <img src="/src/assets/i8.webp" alt="Yuji Aoyama" class="w-[220px] h-[260px] object-cover"/>
+      <img src="/assets/i8.webp" alt="Yuji Aoyama" class="w-[220px] h-[260px] object-cover"/>
       <p class="mt-4 text-xs uppercase tracking-wider text-center">Campaign Manager</p>
       <h3 class="text-2xl font-serif text-center leading-snug">Yuji Aoyama</h3>
     </div>
 
     <div class="flex flex-col items-center max-w-[220px]">
-      <img src="/src/assets/i9.webp" alt="Gareth Roe" class="w-[220px] h-[260px] object-cover"/>
+      <img src="/assets/i9.webp" alt="Gareth Roe" class="w-[220px] h-[260px] object-cover"/>
       <p class="mt-4 text-xs uppercase tracking-wider text-center">Sales Manager</p>
       <h3 class="text-2xl font-serif text-center leading-snug">Gareth Roe</h3>
     </div>
 
     <div class="flex flex-col items-center max-w-[220px]">
-      <img src="/src/assets/i10.webp" alt="Gareth Roe" class="w-[220px] h-[260px] object-cover"/>
+      <img src="/assets/i10.webp" alt="Gareth Roe" class="w-[220px] h-[260px] object-cover"/>
       <p class="mt-4 text-xs uppercase tracking-wider text-center">Sales Manager</p>
       <h3 class="text-2xl font-serif text-center leading-snug">Soma oia</h3>
     </div>
 
     <div class="flex flex-col items-center max-w-[220px]">
-      <img src="/src/assets/i11.webp" alt="Gareth Roe" class="w-[220px] h-[260px] object-cover"/>
+      <img src="/assets/i11.webp" alt="Gareth Roe" class="w-[220px] h-[260px] object-cover"/>
       <p class="mt-4 text-xs uppercase tracking-wider text-center">Campaign Manager</p>
       <h3 class="text-2xl font-serif text-center leading-snug">Jpick aror</h3>
     </div>
 
     <div class="flex flex-col items-center max-w-[220px]">
-      <img src="/src/assets/i12.webp" alt="Gareth Roe" class="w-[220px] h-[260px] object-cover"/>
+      <img src="/assets/i12.webp" alt="Gareth Roe" class="w-[220px] h-[260px] object-cover"/>
       <p class="mt-4 text-xs uppercase tracking-wider text-center">Campaign Manager</p>
       <h3 class="text-2xl font-serif text-center leading-snug">Sam aroy</h3>
     </div>
@@ -216,35 +216,35 @@ const About = () => {
       <div class="group relative flex flex-col sm:flex-row justify-between border-b border-dotted border-black pb-3" >
         <span class="font-mono uppercase text-sm">MCV/DEVELOP</span>
         <span class="text-base font-sans">The Slayeux Tapestry, 2025</span>
-        <img src="/src/assets/i1.webp" alt="Preview" class="hidden group-hover:block absolute right-0 top-full mt-2 w-35 h-auto shadow-lg border bg-white z-10"/>
+        <img src="/assets/i1.webp" alt="Preview" class="hidden group-hover:block absolute right-0 top-full mt-2 w-35 h-auto shadow-lg border bg-white z-10"/>
       </div>
 
       
       <div class="group relative flex flex-col sm:flex-row justify-between border-b border-dotted border-black pb-3">
         <span class="font-mono uppercase text-sm">MCV/DEVELOP</span>
         <span class="text-base font-sans" >Keeping up with social media algorithms, 2025</span>
-        <img src="/src/assets/i2.webp" alt="Preview" class="hidden group-hover:block absolute right-0 top-full mt-2 w-35 h-auto shadow-lg border bg-white z-10"/>
+        <img src="/assets/i2.webp" alt="Preview" class="hidden group-hover:block absolute right-0 top-full mt-2 w-35 h-auto shadow-lg border bg-white z-10"/>
       </div>
 
       
       <div class="group relative flex flex-col sm:flex-row justify-between border-b border-dotted border-black pb-3">
         <span class="font-mono uppercase text-sm">CAMPAIGN</span>
         <span class="text-base font-sans" >Gaming advertisers share their New Year's resolutions, 2024</span>
-        <img src="/src/assets/i3.webp" alt="Preview" class="hidden group-hover:block absolute right-0 top-full mt-2 w-35 h-auto shadow-lg border bg-white z-10"/>
+        <img src="/assets/i3.webp" alt="Preview" class="hidden group-hover:block absolute right-0 top-full mt-2 w-35 h-auto shadow-lg border bg-white z-10"/>
       </div>
 
       
       <div class="group relative flex flex-col sm:flex-row justify-between border-b border-dotted border-black pb-3">
         <span class="font-mono uppercase text-sm">GAMES INDUSTRY</span>
         <span class="text-base font-sans" >How to make your company economically sustainable, 2023</span>
-        <img src="/src/assets/i4.webp" alt="Preview" class="hidden group-hover:block absolute right-0 top-full mt-2 w-35 h-auto shadow-lg border bg-white z-10"/>
+        <img src="/assets/i4.webp" alt="Preview" class="hidden group-hover:block absolute right-0 top-full mt-2 w-35 h-auto shadow-lg border bg-white z-10"/>
       </div>
 
       
       <div class="group relative flex flex-col sm:flex-row justify-between border-b border-dotted border-black pb-3">
         <span class="font-mono uppercase text-sm">MCV/DEVELOP</span>
         <span class="text-base font-sans" >Can your business be a force for good, 2023</span>
-        <img src="/src/assets/i5.webp" alt="Preview" class="hidden group-hover:block absolute right-0 top-full mt-2 w-35 h-auto shadow-lg border bg-white z-10"/>
+        <img src="/assets/i5.webp" alt="Preview" class="hidden group-hover:block absolute right-0 top-full mt-2 w-35 h-auto shadow-lg border bg-white z-10"/>
       </div>
     </div>
   </div>
