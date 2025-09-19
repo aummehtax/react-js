@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+
+        .stunning-heading {
+            font-family: monospace;
+            font-size: 3rem;
+            font-weight: 900;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(
+                90deg,
+                #fdfeff,
+                #222222,
+                #9370db,
+                #ea96ff,
+                #da70d6,
+                #ff69b4,
+                #ffffff,
+                #00ffc8
+            );
+            background-size: 300% 300%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: gradientShift 8s ease-in-out infinite;
+            text-shadow: 0 0 20px rgba(123, 104, 238, 0.2);
+            letter-spacing: 2px;
+            position: relative;
+            filter: drop-shadow(0 0 10px rgba(123, 104, 238, 0.2));
+        }
+
+        .stunning-heading::before {
+            content: '';
+            position: absolute;
+            top: -15px;
+            left: -15px;
+            right: -15px;
+            bottom: -15px;
+            background: linear-gradient(
+                90deg,
+                rgba(74, 144, 226, 0.15),
+                rgba(123, 104, 238, 0.15),
+                rgba(147, 112, 219, 0.15),
+                rgba(186, 85, 211, 0.15),
+                rgba(218, 112, 214, 0.15),
+                rgba(255, 105, 180, 0.15),
+                rgba(255, 99, 71, 0.15),
+                rgba(255, 165, 0, 0.15)
+            );
+            background-size: 300% 300%;
+            border-radius: 25px;
+            z-index: -1;
+            filter: blur(15px);
+            opacity: 0.6;
+            animation: gradientShift 8s ease-in-out infinite;
+        }
+
+
+        @keyframes gradientShift {
+            0%, 100% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+        }
+
+        .subtitle {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 1.2rem;
+            margin-top: 20px;
+            font-weight: 300;
+            letter-spacing: 1px;
+            text-shadow: 0 0 5px rgba(123, 104, 238, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .stunning-heading {
+                font-size: 2.5rem;
+            }
+            .subtitle {
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .stunning-heading {
+                font-size: 2rem;
+                letter-spacing: 1px;
+            }
+        }
+
+        .panel{
+            box-shadow: rgba(231, 231, 231, 0.479) 0px 6px 24px 0px,rgba(180, 180, 180, 0.658) 0px 0px 0px 1px;
+        }
+
+
